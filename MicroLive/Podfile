@@ -1,12 +1,22 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '8.0'
+
+def shared_dependencies
+  pod 'Alamofire' #Elegant Networking in Swift
+  pod 'SwiftyJSON' #Deal with JSON data in Swift
+  pod 'SnapKit' #A Swift Autolayout DSL for iOS & OS X
+  pod 'Starscream' #Conforming WebSocket(RFC 4655) client library in Swift.
+  # In China,you need to change file at '/Users/username/.cocoapods/repos/master/Specs/1/9/2/libwebp/1.0.0/libwebp.podspec.json'
+  # change source/git from 'https://chromium.googlesource.com/webm/libwebp' to 'https://github.com/webmproject/libwebp.git'
+  pod 'libwebp' #Library to encode and decode images in WebP format.
+end
 
 target 'MicroLive' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for MicroLive
-  pod 'MTXKit'
+  shared_dependencies  
 
   target 'MicroLiveTests' do
     inherit! :search_paths
