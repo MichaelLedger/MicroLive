@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32122271AC2B114D87DE3EE4 /* Pods_MicroLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC44F62E3D0FC80B4B2A37 /* Pods_MicroLive.framework */; };
+		51F4C39627B6C5C982E44A09 /* Pods_MicroLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */; };
+		AAD8BC8D219C024D00E61CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */; };
+		AAD8BC8F219C024D00E61CBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8E219C024D00E61CBD /* ViewController.swift */; };
+		AAD8BC92219C024D00E61CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC90219C024D00E61CBD /* Main.storyboard */; };
+		AAD8BC95219C024D00E61CBD /* MicroLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC93219C024D00E61CBD /* MicroLive.xcdatamodeld */; };
+		AAD8BC97219C025000E61CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC96219C025000E61CBD /* Assets.xcassets */; };
+		AAD8BC9A219C025000E61CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC98219C025000E61CBD /* LaunchScreen.storyboard */; };
+		AAD8BCA5219C025000E61CBD /* MicroLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BCA4219C025000E61CBD /* MicroLiveTests.swift */; };
+		AAD8BCB0219C025000E61CBD /* MicroLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BCAF219C025000E61CBD /* MicroLiveUITests.swift */; };
+		EF88EEEEB1C87E11E782CF2E /* Pods_MicroLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A13AB96752041EC18BD314 /* Pods_MicroLiveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD8BCA1219C025000E61CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD8BC81219C024D00E61CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD8BC88219C024D00E61CBD;
+			remoteInfo = MicroLive;
+		};
+		AAD8BCAC219C025000E61CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD8BC81219C024D00E61CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD8BC88219C024D00E61CBD;
+			remoteInfo = MicroLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3345FB569091822EB03E471B /* Pods-MicroLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive.release.xcconfig"; sourceTree = "<group>"; };
+		3C090CF4918DF3A9659378B7 /* Pods-MicroLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveTests/Pods-MicroLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C84E0FFF94BC8BDA642DC32 /* Pods-MicroLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveUITests/Pods-MicroLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5350B9A7D38222C67FAAF4D3 /* Pods-MicroLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveUITests/Pods-MicroLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79D28D2A64AB6FF94641979C /* Pods-MicroLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveTests/Pods-MicroLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2103015563270935F591B2C /* Pods-MicroLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD8BC89219C024D00E61CBD /* MicroLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD8BC8E219C024D00E61CBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD8BC91219C024D00E61CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD8BC94219C024D00E61CBD /* MicroLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroLive.xcdatamodel; sourceTree = "<group>"; };
+		AAD8BC96219C025000E61CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD8BC99219C025000E61CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD8BC9B219C025000E61CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD8BCA0219C025000E61CBD /* MicroLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD8BCA4219C025000E61CBD /* MicroLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLiveTests.swift; sourceTree = "<group>"; };
+		AAD8BCA6219C025000E61CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD8BCAB219C025000E61CBD /* MicroLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD8BCAF219C025000E61CBD /* MicroLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLiveUITests.swift; sourceTree = "<group>"; };
+		AAD8BCB1219C025000E61CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A13AB96752041EC18BD314 /* Pods_MicroLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC44F62E3D0FC80B4B2A37 /* Pods_MicroLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD8BC86219C024D00E61CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32122271AC2B114D87DE3EE4 /* Pods_MicroLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BC9D219C025000E61CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF88EEEEB1C87E11E782CF2E /* Pods_MicroLiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BCA8219C025000E61CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F4C39627B6C5C982E44A09 /* Pods_MicroLiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1817198116C57C97B6AD6624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC44F62E3D0FC80B4B2A37 /* Pods_MicroLive.framework */,
+				C5A13AB96752041EC18BD314 /* Pods_MicroLiveTests.framework */,
+				99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAD8BC80219C024D00E61CBD = {
+			isa = PBXGroup;
+			children = (
+				AAD8BC8B219C024D00E61CBD /* MicroLive */,
+				AAD8BCA3219C025000E61CBD /* MicroLiveTests */,
+				AAD8BCAE219C025000E61CBD /* MicroLiveUITests */,
+				AAD8BC8A219C024D00E61CBD /* Products */,
+				B11D46ECCF1DB503C7CE4AF8 /* Pods */,
+				1817198116C57C97B6AD6624 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD8BC8A219C024D00E61CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8BC89219C024D00E61CBD /* MicroLive.app */,
+				AAD8BCA0219C025000E61CBD /* MicroLiveTests.xctest */,
+				AAD8BCAB219C025000E61CBD /* MicroLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD8BC8B219C024D00E61CBD /* MicroLive */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */,
+				AAD8BC8E219C024D00E61CBD /* ViewController.swift */,
+				AAD8BC90219C024D00E61CBD /* Main.storyboard */,
+				AAD8BC96219C025000E61CBD /* Assets.xcassets */,
+				AAD8BC98219C025000E61CBD /* LaunchScreen.storyboard */,
+				AAD8BC9B219C025000E61CBD /* Info.plist */,
+				AAD8BC93219C024D00E61CBD /* MicroLive.xcdatamodeld */,
+			);
+			path = MicroLive;
+			sourceTree = "<group>";
+		};
+		AAD8BCA3219C025000E61CBD /* MicroLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8BCA4219C025000E61CBD /* MicroLiveTests.swift */,
+				AAD8BCA6219C025000E61CBD /* Info.plist */,
+			);
+			path = MicroLiveTests;
+			sourceTree = "<group>";
+		};
+		AAD8BCAE219C025000E61CBD /* MicroLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8BCAF219C025000E61CBD /* MicroLiveUITests.swift */,
+				AAD8BCB1219C025000E61CBD /* Info.plist */,
+			);
+			path = MicroLiveUITests;
+			sourceTree = "<group>";
+		};
+		B11D46ECCF1DB503C7CE4AF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2103015563270935F591B2C /* Pods-MicroLive.debug.xcconfig */,
+				3345FB569091822EB03E471B /* Pods-MicroLive.release.xcconfig */,
+				3C090CF4918DF3A9659378B7 /* Pods-MicroLiveTests.debug.xcconfig */,
+				79D28D2A64AB6FF94641979C /* Pods-MicroLiveTests.release.xcconfig */,
+				4C84E0FFF94BC8BDA642DC32 /* Pods-MicroLiveUITests.debug.xcconfig */,
+				5350B9A7D38222C67FAAF4D3 /* Pods-MicroLiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD8BC88219C024D00E61CBD /* MicroLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD8BCB4219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLive" */;
+			buildPhases = (
+				E5F3758E4BB93DC50F3B0E4C /* [CP] Check Pods Manifest.lock */,
+				AAD8BC85219C024D00E61CBD /* Sources */,
+				AAD8BC86219C024D00E61CBD /* Frameworks */,
+				AAD8BC87219C024D00E61CBD /* Resources */,
+				C5D16A81A0957C48F8037C13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroLive;
+			productName = MicroLive;
+			productReference = AAD8BC89219C024D00E61CBD /* MicroLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD8BC9F219C025000E61CBD /* MicroLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD8BCB7219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLiveTests" */;
+			buildPhases = (
+				EB8BCCA788BADDDC952A17F0 /* [CP] Check Pods Manifest.lock */,
+				AAD8BC9C219C025000E61CBD /* Sources */,
+				AAD8BC9D219C025000E61CBD /* Frameworks */,
+				AAD8BC9E219C025000E61CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD8BCA2219C025000E61CBD /* PBXTargetDependency */,
+			);
+			name = MicroLiveTests;
+			productName = MicroLiveTests;
+			productReference = AAD8BCA0219C025000E61CBD /* MicroLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD8BCAA219C025000E61CBD /* MicroLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD8BCBA219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLiveUITests" */;
+			buildPhases = (
+				2BAE5E6F5D2B844AF4369F41 /* [CP] Check Pods Manifest.lock */,
+				AAD8BCA7219C025000E61CBD /* Sources */,
+				AAD8BCA8219C025000E61CBD /* Frameworks */,
+				AAD8BCA9219C025000E61CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD8BCAD219C025000E61CBD /* PBXTargetDependency */,
+			);
+			name = MicroLiveUITests;
+			productName = MicroLiveUITests;
+			productReference = AAD8BCAB219C025000E61CBD /* MicroLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD8BC81219C024D00E61CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "MTX Software Technology Co.,Ltd.";
+				TargetAttributes = {
+					AAD8BC88219C024D00E61CBD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AAD8BC9F219C025000E61CBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AAD8BC88219C024D00E61CBD;
+					};
+					AAD8BCAA219C025000E61CBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AAD8BC88219C024D00E61CBD;
+					};
+				};
+			};
+			buildConfigurationList = AAD8BC84219C024D00E61CBD /* Build configuration list for PBXProject "MicroLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD8BC80219C024D00E61CBD;
+			productRefGroup = AAD8BC8A219C024D00E61CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD8BC88219C024D00E61CBD /* MicroLive */,
+				AAD8BC9F219C025000E61CBD /* MicroLiveTests */,
+				AAD8BCAA219C025000E61CBD /* MicroLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD8BC87219C024D00E61CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD8BC9A219C025000E61CBD /* LaunchScreen.storyboard in Resources */,
+				AAD8BC97219C025000E61CBD /* Assets.xcassets in Resources */,
+				AAD8BC92219C024D00E61CBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BC9E219C025000E61CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BCA9219C025000E61CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BAE5E6F5D2B844AF4369F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D16A81A0957C48F8037C13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MTXKit/MTXKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTXKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F3758E4BB93DC50F3B0E4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB8BCCA788BADDDC952A17F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicroLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD8BC85219C024D00E61CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD8BC8F219C024D00E61CBD /* ViewController.swift in Sources */,
+				AAD8BC95219C024D00E61CBD /* MicroLive.xcdatamodeld in Sources */,
+				AAD8BC8D219C024D00E61CBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BC9C219C025000E61CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD8BCA5219C025000E61CBD /* MicroLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD8BCA7219C025000E61CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD8BCB0219C025000E61CBD /* MicroLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD8BCA2219C025000E61CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD8BC88219C024D00E61CBD /* MicroLive */;
+			targetProxy = AAD8BCA1219C025000E61CBD /* PBXContainerItemProxy */;
+		};
+		AAD8BCAD219C025000E61CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD8BC88219C024D00E61CBD /* MicroLive */;
+			targetProxy = AAD8BCAC219C025000E61CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD8BC90219C024D00E61CBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD8BC91219C024D00E61CBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD8BC98219C025000E61CBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD8BC99219C025000E61CBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD8BCB2219C025000E61CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD8BCB3219C025000E61CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD8BCB5219C025000E61CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2103015563270935F591B2C /* Pods-MicroLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD8BCB6219C025000E61CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3345FB569091822EB03E471B /* Pods-MicroLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD8BCB8219C025000E61CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C090CF4918DF3A9659378B7 /* Pods-MicroLiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroLive.app/MicroLive";
+			};
+			name = Debug;
+		};
+		AAD8BCB9219C025000E61CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D28D2A64AB6FF94641979C /* Pods-MicroLiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroLive.app/MicroLive";
+			};
+			name = Release;
+		};
+		AAD8BCBB219C025000E61CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C84E0FFF94BC8BDA642DC32 /* Pods-MicroLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroLive;
+			};
+			name = Debug;
+		};
+		AAD8BCBC219C025000E61CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5350B9A7D38222C67FAAF4D3 /* Pods-MicroLiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				INFOPLIST_FILE = MicroLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang.MicroLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD8BC84219C024D00E61CBD /* Build configuration list for PBXProject "MicroLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD8BCB2219C025000E61CBD /* Debug */,
+				AAD8BCB3219C025000E61CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD8BCB4219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD8BCB5219C025000E61CBD /* Debug */,
+				AAD8BCB6219C025000E61CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD8BCB7219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD8BCB8219C025000E61CBD /* Debug */,
+				AAD8BCB9219C025000E61CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD8BCBA219C025000E61CBD /* Build configuration list for PBXNativeTarget "MicroLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD8BCBB219C025000E61CBD /* Debug */,
+				AAD8BCBC219C025000E61CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAD8BC93219C024D00E61CBD /* MicroLive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAD8BC94219C024D00E61CBD /* MicroLive.xcdatamodel */,
+			);
+			currentVersion = AAD8BC94219C024D00E61CBD /* MicroLive.xcdatamodel */;
+			path = MicroLive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAD8BC81219C024D00E61CBD /* Project object */;
+}

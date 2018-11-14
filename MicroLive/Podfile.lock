@@ -1,0 +1,16 @@
+PODS:
+  - MTXKit (0.0.1)
+
+DEPENDENCIES:
+  - MTXKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MTXKit
+
+SPEC CHECKSUMS:
+  MTXKit: 3100625a2356e37f519cacbfe73ae609c827376f
+
+PODFILE CHECKSUM: 781ccb04b781d05b30913504c5ff08510b9bb2a3
+
+COCOAPODS: 1.5.3
