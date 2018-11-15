@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		32122271AC2B114D87DE3EE4 /* Pods_MicroLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC44F62E3D0FC80B4B2A37 /* Pods_MicroLive.framework */; };
 		51F4C39627B6C5C982E44A09 /* Pods_MicroLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */; };
+		AA9F0214219D0B42009EF959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0213219D0B42009EF959 /* Assets.xcassets */; };
+		AA9F0235219D0C96009EF959 /* emotion.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F022F219D0C95009EF959 /* emotion.json */; };
+		AA9F0236219D0C96009EF959 /* favorites.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0230219D0C95009EF959 /* favorites.json */; };
+		AA9F0237219D0C96009EF959 /* groupchats.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0231219D0C95009EF959 /* groupchats.json */; };
+		AA9F0238219D0C96009EF959 /* awemes.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0232219D0C95009EF959 /* awemes.json */; };
+		AA9F0239219D0C96009EF959 /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0233219D0C96009EF959 /* comments.json */; };
+		AA9F023A219D0C96009EF959 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0234219D0C96009EF959 /* user.json */; };
+		AA9F023C219D0CA2009EF959 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA9F023B219D0CA2009EF959 /* Emoticons.bundle */; };
 		AAD8BC8D219C024D00E61CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */; };
 		AAD8BC8F219C024D00E61CBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8E219C024D00E61CBD /* ViewController.swift */; };
 		AAD8BC92219C024D00E61CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC90219C024D00E61CBD /* Main.storyboard */; };
@@ -44,6 +52,14 @@
 		79D28D2A64AB6FF94641979C /* Pods-MicroLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveTests/Pods-MicroLiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2103015563270935F591B2C /* Pods-MicroLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9F0213219D0B42009EF959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9F022F219D0C95009EF959 /* emotion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emotion.json; sourceTree = "<group>"; };
+		AA9F0230219D0C95009EF959 /* favorites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorites.json; sourceTree = "<group>"; };
+		AA9F0231219D0C95009EF959 /* groupchats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = groupchats.json; sourceTree = "<group>"; };
+		AA9F0232219D0C95009EF959 /* awemes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awemes.json; sourceTree = "<group>"; };
+		AA9F0233219D0C96009EF959 /* comments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comments.json; sourceTree = "<group>"; };
+		AA9F0234219D0C96009EF959 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		AA9F023B219D0CA2009EF959 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
 		AAD8BC89219C024D00E61CBD /* MicroLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD8BC8E219C024D00E61CBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +115,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA9F0210219D0B17009EF959 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F023B219D0CA2009EF959 /* Emoticons.bundle */,
+				AA9F0213219D0B42009EF959 /* Assets.xcassets */,
+				AA9F0232219D0C95009EF959 /* awemes.json */,
+				AA9F0233219D0C96009EF959 /* comments.json */,
+				AA9F022F219D0C95009EF959 /* emotion.json */,
+				AA9F0230219D0C95009EF959 /* favorites.json */,
+				AA9F0231219D0C95009EF959 /* groupchats.json */,
+				AA9F0234219D0C96009EF959 /* user.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		AAD8BC80219C024D00E61CBD = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +155,7 @@
 		AAD8BC8B219C024D00E61CBD /* MicroLive */ = {
 			isa = PBXGroup;
 			children = (
+				AA9F0210219D0B17009EF959 /* Resource */,
 				AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */,
 				AAD8BC8E219C024D00E61CBD /* ViewController.swift */,
 				AAD8BC90219C024D00E61CBD /* Main.storyboard */,
@@ -274,7 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD8BC9A219C025000E61CBD /* LaunchScreen.storyboard in Resources */,
+				AA9F0214219D0B42009EF959 /* Assets.xcassets in Resources */,
 				AAD8BC92219C024D00E61CBD /* Main.storyboard in Resources */,
+				AA9F023A219D0C96009EF959 /* user.json in Resources */,
+				AA9F0235219D0C96009EF959 /* emotion.json in Resources */,
+				AA9F0238219D0C96009EF959 /* awemes.json in Resources */,
+				AA9F0237219D0C96009EF959 /* groupchats.json in Resources */,
+				AA9F0236219D0C96009EF959 /* favorites.json in Resources */,
+				AA9F0239219D0C96009EF959 /* comments.json in Resources */,
+				AA9F023C219D0CA2009EF959 /* Emoticons.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
