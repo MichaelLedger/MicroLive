@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.7.3)
+  - HandyJSON (4.1.3)
+  - libwebp (1.0.0):
+    - libwebp/core (= 1.0.0)
+    - libwebp/dec (= 1.0.0)
+    - libwebp/demux (= 1.0.0)
+    - libwebp/dsp (= 1.0.0)
+    - libwebp/enc (= 1.0.0)
+    - libwebp/mux (= 1.0.0)
+    - libwebp/utils (= 1.0.0)
+    - libwebp/webp (= 1.0.0)
+  - libwebp/core (1.0.0):
+    - libwebp/webp
+  - libwebp/dec (1.0.0):
+    - libwebp/core
+  - libwebp/demux (1.0.0):
+    - libwebp/core
+  - libwebp/dsp (1.0.0):
+    - libwebp/core
+  - libwebp/enc (1.0.0):
+    - libwebp/core
+  - libwebp/mux (1.0.0):
+    - libwebp/core
+  - libwebp/utils (1.0.0):
+    - libwebp/core
+  - libwebp/webp (1.0.0)
+  - SnapKit (4.0.0)
+  - Starscream (3.0.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - libwebp
+  - SnapKit
+  - Starscream
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - libwebp
+    - SnapKit
+    - Starscream
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  HandyJSON: bc81fbeb62d65ae5d5942ed29bc4a8265d18c1e8
+  libwebp: 55396d0372e3551a8e22594cd9ce480d2485e040
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 9b43b7b1669cc98190337ef7932a0e1fa0a4b320
+
+COCOAPODS: 1.5.3
