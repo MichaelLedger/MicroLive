@@ -103,7 +103,6 @@
 		AA9F0307219D3EFD009EF959 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02E5219D3EFD009EF959 /* UserInfoHeader.swift */; };
 		AA9F0308219D3EFD009EF959 /* AwemeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02E6219D3EFD009EF959 /* AwemeCollectionCell.swift */; };
 		AAD8BC8D219C024D00E61CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */; };
-		AAD8BC8F219C024D00E61CBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC8E219C024D00E61CBD /* ViewController.swift */; };
 		AAD8BC92219C024D00E61CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC90219C024D00E61CBD /* Main.storyboard */; };
 		AAD8BC95219C024D00E61CBD /* MicroLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAD8BC93219C024D00E61CBD /* MicroLive.xcdatamodeld */; };
 		AAD8BC9A219C025000E61CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8BC98219C025000E61CBD /* LaunchScreen.storyboard */; };
@@ -235,7 +234,6 @@
 		AA9F02E6219D3EFD009EF959 /* AwemeCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwemeCollectionCell.swift; sourceTree = "<group>"; };
 		AAD8BC89219C024D00E61CBD /* MicroLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAD8BC8E219C024D00E61CBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAD8BC91219C024D00E61CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAD8BC94219C024D00E61CBD /* MicroLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroLive.xcdatamodel; sourceTree = "<group>"; };
 		AAD8BC99219C025000E61CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -537,7 +535,6 @@
 				AA9F0249219D0D9A009EF959 /* Utils */,
 				AA9F0210219D0B17009EF959 /* Resource */,
 				AAD8BC8C219C024D00E61CBD /* AppDelegate.swift */,
-				AAD8BC8E219C024D00E61CBD /* ViewController.swift */,
 				AAD8BC90219C024D00E61CBD /* Main.storyboard */,
 				AAD8BC98219C025000E61CBD /* LaunchScreen.storyboard */,
 				AAD8BC9B219C025000E61CBD /* Info.plist */,
@@ -808,7 +805,6 @@
 				AA9F02AA219D3DF9009EF959 /* VisitorResponse.swift in Sources */,
 				AA9F0269219D1780009EF959 /* WebCombineOperation.swift in Sources */,
 				AA9F026C219D1780009EF959 /* WebDownloadOperation.swift in Sources */,
-				AAD8BC8F219C024D00E61CBD /* ViewController.swift in Sources */,
 				AA9F0273219D184D009EF959 /* WebPQueueManager.swift in Sources */,
 				AA9F02ED219D3EFD009EF959 /* TextMessageCell.swift in Sources */,
 				AA9F0304219D3EFD009EF959 /* SlideTabBarFooter.swift in Sources */,
