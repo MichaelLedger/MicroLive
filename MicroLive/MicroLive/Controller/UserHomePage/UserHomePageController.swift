@@ -22,7 +22,7 @@ class UserHomePageController: BaseViewController {
     var loadMore:LoadMoreControl?
     var selectIndex:Int = 0
     
-    let uid:String = "97795069351"//97795069350、97795069351、97795069352、97795069353
+    let uid:String = "97795069353"//97795069350、97795069351、97795069352、97795069353
     var user:User?
     
     var workAwemes = [Aweme]()

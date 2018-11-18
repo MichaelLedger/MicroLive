@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		32122271AC2B114D87DE3EE4 /* Pods_MicroLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC44F62E3D0FC80B4B2A37 /* Pods_MicroLive.framework */; };
 		51F4C39627B6C5C982E44A09 /* Pods_MicroLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */; };
+		573E96CF21A16E73007DCCCF /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E96CE21A16E73007DCCCF /* RefreshControl.swift */; };
+		573E96D221A16F99007DCCCF /* RefreshControlEnumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E96D121A16F99007DCCCF /* RefreshControlEnumer.swift */; };
 		AA9F0214219D0B42009EF959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0213219D0B42009EF959 /* Assets.xcassets */; };
 		AA9F0235219D0C96009EF959 /* emotion.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F022F219D0C95009EF959 /* emotion.json */; };
 		AA9F0236219D0C96009EF959 /* favorites.json in Resources */ = {isa = PBXBuildFile; fileRef = AA9F0230219D0C95009EF959 /* favorites.json */; };
@@ -69,7 +71,6 @@
 		AA9F02BC219D3E2D009EF959 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02B3219D3E2D009EF959 /* Video.swift */; };
 		AA9F02BD219D3E2D009EF959 /* Aweme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02B4219D3E2D009EF959 /* Aweme.swift */; };
 		AA9F02E7219D3EFD009EF959 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02BF219D3EFD009EF959 /* PhotoView.swift */; };
-		AA9F02E8219D3EFD009EF959 /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02C0219D3EFD009EF959 /* RefreshControl.swift */; };
 		AA9F02E9219D3EFD009EF959 /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02C1219D3EFD009EF959 /* CircleProgress.swift */; };
 		AA9F02EA219D3EFD009EF959 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02C2219D3EFD009EF959 /* BaseViewController.swift */; };
 		AA9F02EB219D3EFD009EF959 /* EmotionSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F02C4219D3EFD009EF959 /* EmotionSelector.swift */; };
@@ -133,6 +134,8 @@
 		3C090CF4918DF3A9659378B7 /* Pods-MicroLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveTests/Pods-MicroLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C84E0FFF94BC8BDA642DC32 /* Pods-MicroLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveUITests/Pods-MicroLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5350B9A7D38222C67FAAF4D3 /* Pods-MicroLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveUITests/Pods-MicroLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		573E96CE21A16E73007DCCCF /* RefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
+		573E96D121A16F99007DCCCF /* RefreshControlEnumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControlEnumer.swift; sourceTree = "<group>"; };
 		79D28D2A64AB6FF94641979C /* Pods-MicroLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLiveTests/Pods-MicroLiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2103015563270935F591B2C /* Pods-MicroLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicroLive/Pods-MicroLive.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,7 +202,6 @@
 		AA9F02B3219D3E2D009EF959 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		AA9F02B4219D3E2D009EF959 /* Aweme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aweme.swift; sourceTree = "<group>"; };
 		AA9F02BF219D3EFD009EF959 /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
-		AA9F02C0219D3EFD009EF959 /* RefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
 		AA9F02C1219D3EFD009EF959 /* CircleProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
 		AA9F02C2219D3EFD009EF959 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AA9F02C4219D3EFD009EF959 /* EmotionSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionSelector.swift; sourceTree = "<group>"; };
@@ -285,6 +287,23 @@
 				99C6E7B912CE99E8CA302914 /* Pods_MicroLiveUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573E96CD21A16E1C007DCCCF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				573E96D021A16F42007DCCCF /* RefreshControl */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		573E96D021A16F42007DCCCF /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				573E96CE21A16E73007DCCCF /* RefreshControl.swift */,
+				573E96D121A16F99007DCCCF /* RefreshControlEnumer.swift */,
+			);
+			path = RefreshControl;
 			sourceTree = "<group>";
 		};
 		AA9F0210219D0B17009EF959 /* Resource */ = {
@@ -416,7 +435,6 @@
 			isa = PBXGroup;
 			children = (
 				AA9F02BF219D3EFD009EF959 /* PhotoView.swift */,
-				AA9F02C0219D3EFD009EF959 /* RefreshControl.swift */,
 				AA9F02C1219D3EFD009EF959 /* CircleProgress.swift */,
 				AA9F02C2219D3EFD009EF959 /* BaseViewController.swift */,
 				AA9F02C3219D3EFD009EF959 /* GroupChat */,
@@ -526,6 +544,7 @@
 		AAD8BC8B219C024D00E61CBD /* MicroLive */ = {
 			isa = PBXGroup;
 			children = (
+				573E96CD21A16E1C007DCCCF /* Component */,
 				AA9F02BE219D3EFD009EF959 /* Controller */,
 				AA9F02AB219D3E2D009EF959 /* Entity */,
 				AA9F027C219D3DF8009EF959 /* Network */,
@@ -834,7 +853,6 @@
 				AA9F02B7219D3E2D009EF959 /* PictureInfo.swift in Sources */,
 				AA9F0295219D3DF9009EF959 /* NetworkManager.swift in Sources */,
 				AA9F0300219D3EFD009EF959 /* ScalePresentAnimation.swift in Sources */,
-				AA9F02E8219D3EFD009EF959 /* RefreshControl.swift in Sources */,
 				AA9F0307219D3EFD009EF959 /* UserInfoHeader.swift in Sources */,
 				AA9F024B219D0DB7009EF959 /* Constants.swift in Sources */,
 				AA9F0302219D3EFD009EF959 /* LoadMoreControl.swift in Sources */,
@@ -860,6 +878,7 @@
 				AA9F029C219D3DF9009EF959 /* UserRequest.swift in Sources */,
 				AA9F02E7219D3EFD009EF959 /* PhotoView.swift in Sources */,
 				AA9F02A4219D3DF9009EF959 /* CommentListResponse.swift in Sources */,
+				573E96D221A16F99007DCCCF /* RefreshControlEnumer.swift in Sources */,
 				AA9F02FE219D3EFD009EF959 /* SharePopView.swift in Sources */,
 				AA9F0303219D3EFD009EF959 /* MenuPopView.swift in Sources */,
 				AA9F0301219D3EFD009EF959 /* ScaleDismissAnimation.swift in Sources */,
@@ -889,6 +908,7 @@
 				AA9F02FA219D3EFD009EF959 /* CommentsPopView.swift in Sources */,
 				AA9F02EA219D3EFD009EF959 /* BaseViewController.swift in Sources */,
 				AA9F0305219D3EFD009EF959 /* HoverViewFlowLayout.swift in Sources */,
+				573E96CF21A16E73007DCCCF /* RefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

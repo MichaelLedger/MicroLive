@@ -64,13 +64,6 @@ enum LoadingType: Int {
     case LoadStateFailed
 }
 
-enum RefreshingType: Int {
-    case RefreshHeaderStateIdle
-    case RefreshHeaderStatePulling
-    case RefreshHeaderStateRefreshing
-    case RefreshHeaderStateAll
-}
-
 enum ChatEditMessageType: Int {
     case EditTextMessage
     case EditPhotoMessage
