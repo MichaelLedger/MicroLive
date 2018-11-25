@@ -2,8 +2,8 @@
 //  BaseMessageCell.m
 //  Douyin
 //
-//  Created by Qiao Shi on 2018/10/21.
-//  Copyright © 2018 Qiao Shi. All rights reserved.
+//  Created by MountainX on 2018/10/21.
+//  Copyright © 2018 MountainX. All rights reserved.
 //
 
 #import "BaseMessageCell.h"
